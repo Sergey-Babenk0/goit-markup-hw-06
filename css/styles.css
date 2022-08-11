@@ -1008,8 +1008,8 @@ footer .fill {
   border-color: var(--brand-color-one);
 }
 
-.modal-form-contain:hover .modal-form-label-icons,
-.modal-form-contain:focus .modal-form-label-icons {
+.modal-form-input:hover + .modal-form-label-icons,
+.modal-form-input:focus + .modal-form-label-icons {
   fill: var(--brand-color-one);
 }
 .modal-form-textarea {
@@ -1088,6 +1088,8 @@ footer .fill {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
   min-width: 200px;
